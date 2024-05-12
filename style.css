@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240,240,240);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    
+}
+
+header {
+    background-color: rgb(0,128,128);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li a {
+    margin-right: 20px;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(0, 100, 100);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+li a:hover {
+    background-color: rgb(0, 80, 80);
+}
+
+main, section {
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+
+label{
+    color: rgb(0,128,128);
+    
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;    
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-style: solid;
+    
+
+}
+
+
+.titulocontato {
+    padding-top: 10px;
+}
+
+button {
+    background-color: rgb(0,128,128);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    height: 50px;
+}
+
+button:hover {
+    background-color: rgb(0,100,100);
+}
+
+footer {
+    background-color: rgb(0,128,128);
+    color: #fff;
+    text-align: center;
+    padding: 20px; 
+    margin-top: auto;
+    
+    
+}
+
+input, select, textarea, button:focus {
+    outline: none;
+    border-color: rgb(0,100,100);
+
+}
+
+
+
+
